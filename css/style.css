@@ -82,21 +82,21 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #4b527e;
 }
-
-#fh5co-container {
-  width: 100%;
-  float: left;
-  height: 900px;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+@media only screen and (min-width : 1224px){
+  .fh5co-container {
+    width: 100%;
+    float: left;
+    height: 900px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
 }
-
 .countdown-wrap, .bg-cover {
   width: 50%;
   float: left;
