@@ -17,6 +17,10 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+  /* height: 100%; */
+}
+html{
+  height: 100%;
 }
 #page {
   position: relative;
@@ -82,11 +86,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #4b527e;
 }
-@media only screen and (min-width : 1224px){
+@media screen and (min-width : 1224px){
   .fh5co-container {
-    width: 100%;
+    width: 100vw; 
     float: left;
-    height: 900px;
+    min-height: 100vh;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
@@ -119,7 +123,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center center;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .bg-cover {
     display: none;
   }
@@ -189,13 +193,13 @@ form label {
 
 .display-t {
   display: table;
-  min-height: 700px;
+  /* min-height: 350px; */
+  max-height: 100vh;
   margin: 0 auto;
 }
 .display-t .display-tc {
   display: table-cell !important;
   vertical-align: middle;
-  min-height: 700px;
 }
 .display-t .display-tc h1, .display-t .display-tc h2 {
   margin: 0;

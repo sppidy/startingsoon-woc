@@ -912,8 +912,8 @@ pre code {
   margin-right: -15px;
 }
 .row:before, .row:after {
-  content: " ";
-  display: table;
+  /* content: " "; */
+  /* display: table; */
 }
 .row:after {
   clear: both;
